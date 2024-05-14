@@ -1,10 +1,7 @@
--- Data Exploration
+-- Exploring the Menu
 
 SELECT *
 FROM menu_items;
-
-SELECT *
-FROM order_details;
 
 -- The number of items on menu
 SELECT COUNT(*) as number_of_items
@@ -45,6 +42,8 @@ SELECT category, COUNT(*), AVG(price)
 FROM menu_items
 GROUP BY category;
 
+-- Exploring customer orders 
+
 SELECT *
 FROM order_details;
 
@@ -55,12 +54,12 @@ FROM order_details;
 
 -- The amount of orders made and amount of items ordered withing this date range
 SELECT COUNT(distinct order_id) as amount_of_orders,
-		COUNT(*) as amount_of_items_ordered
+       COUNT(*) as amount_of_items_ordered
 FROM order_details
 WHERE order_date BETWEEN (SELECT MIN(order_date)
-						  FROM order_details)
-				  AND (SELECT MAX(order_date)
-						FROM order_details);
+			    FROM order_details)
+		 AND (SELECT MAX(order_date)
+			FROM order_details);
 
 -- The orders that had the most number of items
 
@@ -70,7 +69,6 @@ GROUP BY order_id
 ORDER BY COUNT(*) DESC;
 
 -- The amount of orders that had more than 12 items
-
 SELECT order_id, COUNT(*)
 FROM order_details
 GROUP BY order_id
@@ -103,7 +101,7 @@ GROUP BY m.item_name, m.category
 ORDER BY COUNT(*) DESC
 LIMIT 1;
 
--- Top 5 orders that spend the most money
+-- Top 5 orders that spent the most money
 
 SELECT o.order_id, SUM(m.price) as price_of_order
 FROM menu_items as m
