@@ -37,7 +37,6 @@ ORDER BY price DESC
 LIMIT 1;
 
 -- The amount of dishes in each category and the average dish price for each category
-
 SELECT category, COUNT(*), AVG(price)
 FROM menu_items
 GROUP BY category;
@@ -49,7 +48,7 @@ FROM order_details;
 
 -- The data range of the order table
 SELECT MIN(order_date) as first_order_date,
-		MAX(order_date) as recent_order_date
+       MAX(order_date) as recent_order_date
 FROM order_details; 
 
 -- The amount of orders made and amount of items ordered withing this date range
@@ -62,7 +61,6 @@ WHERE order_date BETWEEN (SELECT MIN(order_date)
 			FROM order_details);
 
 -- The orders that had the most number of items
-
 SELECT order_id, COUNT(*)
 FROM order_details
 GROUP BY order_id
@@ -84,7 +82,6 @@ ON m.menu_item_id = o.item_id;
 -- Analyzing customer behavior
 
 -- The least and most ordered items by category
-
 SELECT m.item_name, m.category, COUNT(*) as amount_ordered
 FROM menu_items as m
 	LEFT JOIN order_details as o
