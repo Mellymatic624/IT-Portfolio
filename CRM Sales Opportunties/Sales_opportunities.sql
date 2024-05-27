@@ -22,9 +22,13 @@ WHERE product = 'GTXPro';
 
 -- EXPLORATORY DATA ANALYSIS
 
+-- Exploring the sales pipeline table
+SELECT * 
+FROM sales_pipeline;
+
 -- Which product sold the most? Sold the least?
 SELECT product, 
-		COUNT(*) as sales_num
+	COUNT(*) as sales_num
 FROM sales_pipeline
 WHERE deal_stage = 'WON'
 GROUP BY product
@@ -34,11 +38,11 @@ ORDER BY sales_num DESC;
 SELECT a.sector, 
 	   COUNT(opportunity_id) as sales,
        SUM(CASE
-			 WHEN sp.deal_stage = 'won' THEN 1
-			 ELSE 0
-		   END) as sales_won
+		WHEN sp.deal_stage = 'won' THEN 1
+		ELSE 0
+	   END) as sales_won
 FROM accounts as a
-	LEFT JOIN sales_pipeline as sp
+    LEFT JOIN sales_pipeline as sp
     ON a.account = sp.account
 GROUP BY a.sector
 ORDER BY sales DESC;
@@ -47,16 +51,16 @@ ORDER BY sales DESC;
 WITH sales_won_sector as (SELECT a.sector, 
 	   COUNT(opportunity_id) as sales,
        SUM(CASE
-			 WHEN sp.deal_stage = 'won' THEN 1
-			 ELSE 0
-		   END) as sales_won
+	      WHEN sp.deal_stage = 'won' THEN 1
+	      ELSE 0
+	   END) as sales_won
 FROM accounts as a
 	LEFT JOIN sales_pipeline as sp
-    ON a.account = sp.account
+    	ON a.account = sp.account
 GROUP BY a.sector)
 
 SELECT sector, 
-		ROUND((sales_won / sales) * 100, 2) as won_percentage
+       ROUND((sales_won / sales) * 100, 2) as won_percentage
 FROM sales_won_sector
 ORDER BY won_percentage DESC;
 
@@ -64,7 +68,7 @@ ORDER BY won_percentage DESC;
 SELECT a.office_location, COUNT(*) as num_of_sales
 FROM accounts as a
 	INNER JOIN sales_pipeline as sp
-    ON a.account = sp.account
+    	ON a.account = sp.account
 WHERE sp.deal_stage = 'Won'
 GROUP BY a.office_location
 ORDER BY num_of_sales DESC;
@@ -72,17 +76,17 @@ ORDER BY num_of_sales DESC;
 -- Which product sold the most in each country?
 WITH products_country_sold as (
 SELECT a.office_location, 
-		sp.product, COUNT(*) as num_of_sales,
+	sp.product, COUNT(*) as num_of_sales,
         RANK() OVER(PARTITION BY a.office_location ORDER BY COUNT(*) DESC) as rank_num
 FROM accounts as a
 	INNER JOIN sales_pipeline as sp
-    ON a.account = sp.account
+    	ON a.account = sp.account
 WHERE sp.deal_stage = 'Won'
 GROUP BY a.office_location, sp.product
 )
 
 SELECT office_location, 
-		product, 
+	product, 
         num_of_sales
 FROM products_country_sold
 WHERE rank_num = 1
@@ -119,7 +123,7 @@ SELECT st.regional_office as region,
 	   SUM(sp.close_value) as sales_revenue
 FROM sales_teams as st
 	LEFT JOIN sales_pipeline as sp
-    ON st.sales_agent = sp.sales_agent
+    	ON st.sales_agent = sp.sales_agent
 GROUP BY 1
 ORDER BY 2 DESC;
 
@@ -127,17 +131,17 @@ ORDER BY 2 DESC;
 
 WITH sales_ranked_region as (
 SELECT st.sales_agent, 
-		st.regional_office as region, 
+	st.regional_office as region, 
         SUM(sp.close_value) as sales_revenue,
         RANK() OVER(PARTITION BY st.regional_office ORDER BY SUM(sp.close_value) DESC) as rank_num
 FROM sales_teams as st
 	LEFT JOIN sales_pipeline as sp
-    ON st.sales_agent = sp.sales_agent
+    	ON st.sales_agent = sp.sales_agent
 GROUP BY 1, 2
 )
 
 SELECT sales_agent,
-		region,
+	region,
         sales_revenue
 FROM sales_ranked_region
 WHERE rank_num = 1;
