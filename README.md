@@ -13,7 +13,7 @@ Welcome to my SQL portfolio! This repository showcases my SQL projects, scripts,
 
 ### [Restaurant Operations Analysis](https://github.com/Mellymatic624/SQLPortfolioProjects/tree/main/RestaurantOperationsAnalysis-Project)
 
-- **Description**: In this project, a restaurant owner wants to know which menu items are selling well and not too well, based on customer data.
+- **Description**: In this project, I helped a restaurant owner figured out which menu items are selling well and not too well, based on customer data so that they can make an informed business decision.
 - **Technologies**: MYSQL
 - **SQL Skills Demonstrated**: Querying, grouping, joins, CTE's, conditional logic.
 - **Link**: https://github.com/Mellymatic624/SQLPortfolioProjects/tree/main/RestaurantOperationsAnalysis-Project
