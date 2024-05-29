@@ -1,5 +1,6 @@
--- Exploring the Menu
-
+------------------------------------------------
+	    -- Exploring the Menu
+------------------------------------------------
 SELECT *
 FROM menu_items;
 
@@ -41,7 +42,9 @@ SELECT category, COUNT(*), AVG(price)
 FROM menu_items
 GROUP BY category;
 
--- Exploring customer orders 
+------------------------------------------------
+	-- Exploring customer orders 
+------------------------------------------------
 
 SELECT *
 FROM order_details;
@@ -79,7 +82,9 @@ FROM menu_items as m
 LEFT JOIN order_details as o
 ON m.menu_item_id = o.item_id;
 
--- Analyzing customer behavior
+------------------------------------------------
+	-- Analyzing customer behavior
+------------------------------------------------
 
 -- The least and most ordered items by category
 SELECT m.item_name, m.category, COUNT(*) as amount_ordered
