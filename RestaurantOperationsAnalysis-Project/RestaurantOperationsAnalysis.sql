@@ -104,7 +104,6 @@ ORDER BY COUNT(*) DESC
 LIMIT 1;
 
 -- Top 5 orders that spent the most money
-
 SELECT o.order_id, SUM(m.price) as price_of_order
 FROM menu_items as m
 	LEFT JOIN order_details as o
