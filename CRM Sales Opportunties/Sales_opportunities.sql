@@ -1,4 +1,6 @@
--- DATA CLEANING
+------------------------------------------------
+		-- DATA CLEANING
+------------------------------------------------
 
 SELECT * FROM accounts;
 
@@ -20,7 +22,9 @@ UPDATE sales_pipeline
 SET product = 'GTX Pro'
 WHERE product = 'GTXPro';
 
--- EXPLORATORY DATA ANALYSIS
+------------------------------------------------
+	-- EXPLORATORY DATA ANALYSIS
+------------------------------------------------
 
 -- Exploring the sales pipeline table
 SELECT * 
