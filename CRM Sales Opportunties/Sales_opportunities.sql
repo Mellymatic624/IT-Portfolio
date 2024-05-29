@@ -132,7 +132,6 @@ GROUP BY 1
 ORDER BY 2 DESC;
 
 -- Who are the top sales agents in each region?
-
 WITH sales_ranked_region as (
 SELECT st.sales_agent, 
 	st.regional_office as region, 
