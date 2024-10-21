@@ -37,7 +37,7 @@ I am Jamel La Rose, an IT professional with a solid background in hardware troub
 - **Date:** July 2024 – Present
 - **Description:** Developed a virtualized lab environment to simulate enterprise-level IT infrastructure, including Windows Server 2022 with Active Directory integration. Managed users, groups, and permissions while automating tasks with PowerShell.
 - **Key Skills:** Windows Server, Active Directory, PowerShell, Virtualization
-- [View Project](#)
+- [View Project](https://github.com/Mellymatic624/active-directory-homelab.git)
 
 ---
 
