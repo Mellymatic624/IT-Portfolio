@@ -45,7 +45,7 @@ I am Jamel La Rose, an IT professional with a solid background in hardware troub
 - **Date:** Ongoing
 - **Description:** Designed and deployed PowerShell scripts for automating user account creation, permission management, and system monitoring tasks, reducing manual effort by 30%.
 - **Key Skills:** PowerShell, Scripting, Windows Server Automation
-- [View Project](#)
+- [View Project](https://github.com/Mellymatic624/Automated_User_Management)
 
 ---
 
