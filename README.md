@@ -1,42 +1,31 @@
-# Jamel La Rose's SQL Portfolio
+<h1>Hi, I'm Jamel! </h1>
 
-Welcome to my SQL portfolio! This repository showcases my SQL projects, scripts, and queries. Whether you're an employer, a collaborator, or simply curious about my SQL skills, you'll find a variety of projects here demonstrating my proficiency in working with databases and manipulating data using SQL.
+<h2>👨‍💻 IT Support Projects:</h2>
 
-## Table of Contents
+- [Active Directory Environment](https://github.com/joshmadakor1/Algorithms-Practice)
 
-- [Projects](#projects)
-- [Skills](#skills)
-- [Contributing](#contributing)
-- [Contact](#contact)
 
-## Projects
+<h2>Certifications</h2>
 
-### [Restaurant Operations Analysis](https://github.com/Mellymatic624/SQLPortfolioProjects/tree/main/RestaurantOperationsAnalysis-Project)
+- [CompTIA A+](https://www.certmetrics.com/comptia/public/verification.aspx?code=2DXDNR24D76LV79Y)
 
-- **Description**: In this project, I helped a restaurant owner figure out which menu items are selling well and not too well, based on customer data so that they can make an informed business decision.
-- **Technologies**: MYSQL
-- **SQL Skills Demonstrated**: Querying, grouping, joins, CTE's, conditional logic.
-- **Link**: https://github.com/Mellymatic624/SQLPortfolioProjects/tree/main/RestaurantOperationsAnalysis-Project
+<h2> 🤳 Connect with me:</h2>
 
-### [CRM Sales Opportunities](https://github.com/Mellymatic624/SQLPortfolioProjects/tree/main/CRM%20Sales%20Opportunties)
+[<img align="left" alt="JoshMadakor | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
 
-- **Description**: In this project, I gathered insights on the sales of different sales teams based on the sales pipeline data and to help make a decision on which products are more likely to be sold.
-- **Technologies**: MYSQL
-- **SQL Skills Demonstrated**: Data Cleaning, Data Manipulation, joins, CTE's, window functions.
-- **Link**: https://github.com/Mellymatic624/SQLPortfolioProjects/tree/main/CRM%20Sales%20Opportunties
+[linkedin]: www.linkedin.com/in/jamel-la-rose-8352b37a
 
-## Skills
+<!--
+**joshmadakor1/joshmadakor1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-In my SQL projects, I've demonstrated proficiency in the following areas:
+Here are some ideas to get you started:
 
-- Writing complex SQL queries for data extraction, transformation, and analysis
-- Performance optimization of SQL queries and database operations
-- Database management and administration
-
-## Contributing
-
-If you have any suggestions for improving my projects or would like to collaborate on a new SQL project, feel free to reach out! Contributions and feedback are always welcome.
-
-## Contact
-
-You can reach me via email at [larose_jamel@yahoo.com](mailto:larose_jamel@yahoo.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/jamel-la-rose-7a95612a3/).
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
