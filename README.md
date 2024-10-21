@@ -15,10 +15,9 @@ I am Jamel La Rose, an IT professional with a solid background in hardware troub
 
 ## **Certifications**
 
-- **Associate Data Analyst** – DataCamp, June 2024
-- **CompTIA A+** – September 2024
-- **CompTIA Network+** – In Progress
-
+- **[CompTIA A+](www.linkedin.com/in/jamel-la-rose-8352b37a)** – September 2024
+- **[Associate Data Analyst](https://www.datacamp.com/certificate/DAA0010819815592)** – June 2024
+- **CompTIA Network+** - In Progress
 ---
 
 ## **Technical Skills**
@@ -34,7 +33,7 @@ I am Jamel La Rose, an IT professional with a solid background in hardware troub
 
 ## **🔧 IT Projects**
 
-### **1. IT Support Home Lab**
+### **1. Active Directory Homelab**
 - **Date:** July 2024 – Present
 - **Description:** Developed a virtualized lab environment to simulate enterprise-level IT infrastructure, including Windows Server 2022 with Active Directory integration. Managed users, groups, and permissions while automating tasks with PowerShell.
 - **Key Skills:** Windows Server, Active Directory, PowerShell, Virtualization
