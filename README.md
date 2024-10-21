@@ -3,7 +3,7 @@
 📧 **Email:** larose.jamel.d@gmail.com  
 📍 **Location:** Brooklyn, NY  
 🌐 **LinkedIn:** [linkedin.com/in/jamel-la-rose-8352b37a](https://www.linkedin.com/in/jamel-la-rose-8352b37a)  
-🌐 **GitHub:** [github.com/jamellarose](#)
+🌐 **GitHub:** [github.com/mellymatic624/mellymatic624](https://github.com/Mellymatic624/mellymatic624)
 
 ---
 
@@ -53,6 +53,6 @@ I am Jamel La Rose, an IT professional with a solid background in hardware troub
 
 - **Email:** larose.jamel.d@gmail.com  
 - **LinkedIn:** [linkedin.com/in/jamel-la-rose-8352b37a](https://www.linkedin.com/in/jamel-la-rose-8352b37a)  
-- **GitHub:** [github.com/jamellarose](#)
+- **GitHub:** [github.com/mellymatic624/mellymatic624](https://github.com/Mellymatic624/mellymatic624)
 
 ---
