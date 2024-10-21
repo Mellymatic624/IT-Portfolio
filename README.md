@@ -1,31 +1,73 @@
-<h1>Hi, I'm Jamel! </h1>
+# **Jamel La Rose - Certified IT Professional**
 
-<h2>👨‍💻 IT Support Projects:</h2>
+📧 **Email:** larose.jamel.d@gmail.com  
+📍 **Location:** Brooklyn, NY  
+🌐 **LinkedIn:** [linkedin.com/in/jamel-la-rose-8352b37a](https://www.linkedin.com/in/jamel-la-rose-8352b37a)  
+🌐 **GitHub:** [github.com/jamellarose](#)
 
-- [Active Directory Environment](https://github.com/joshmadakor1/Algorithms-Practice)
+---
 
+### **About Me**
 
-<h2>Certifications</h2>
+I am Jamel La Rose, an IT professional with a solid background in hardware troubleshooting, networking, and system administration. With certifications like CompTIA A+ and hands-on experience in configuring and managing IT infrastructures, I thrive on solving technical challenges and optimizing IT environments through automation and virtualization.
 
-- [CompTIA A+](https://www.certmetrics.com/comptia/public/verification.aspx?code=2DXDNR24D76LV79Y)
+---
 
-<h2> 🤳 Connect with me:</h2>
+## **Certifications**
 
-[<img align="left" alt="JoshMadakor | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
+- **Associate Data Analyst** – DataCamp, June 2024
+- **CompTIA A+** – September 2024
+- **CompTIA Network+** – In Progress
 
-[linkedin]: www.linkedin.com/in/jamel-la-rose-8352b37a
+---
 
-<!--
-**joshmadakor1/joshmadakor1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## **Technical Skills**
 
-Here are some ideas to get you started:
+- **Operating Systems:** Windows 10/11, Windows Server 2016/2019/2022, macOS, Linux (Ubuntu)
+- **Networking:** TCP/IP, VPN, DNS, DHCP
+- **Tools:** Active Directory, Microsoft Exchange, Microsoft Office Suite, Google Workspace
+- **Hardware:** Desktops, Laptops, Routers, Switches, Printers
+- **Virtualization:** VMware, Hyper-V, VirtualBox
+- **Automation:** PowerShell, Bash, Batch scripting
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## **🔧 IT Projects**
+
+### **1. IT Support Home Lab**
+- **Date:** July 2024 – Present
+- **Description:** Developed a virtualized lab environment to simulate enterprise-level IT infrastructure, including Windows Server 2022 with Active Directory integration. Managed users, groups, and permissions while automating tasks with PowerShell.
+- **Key Skills:** Windows Server, Active Directory, PowerShell, Virtualization
+- [View Project](#)
+
+---
+
+### **2. Automated User Management with PowerShell**
+- **Date:** Ongoing
+- **Description:** Designed and deployed PowerShell scripts for automating user account creation, permission management, and system monitoring tasks, reducing manual effort by 30%.
+- **Key Skills:** PowerShell, Scripting, Windows Server Automation
+- [View Project](#)
+
+---
+
+## **Work Experience**
+
+### **Freelance PC Repair Technician**
+**February 2015 – Present**  
+- Diagnosed and resolved hardware/software issues for over 80 clients.
+- Achieved a 95% customer satisfaction rate by delivering tailored solutions for each client.
+
+### **Track Maintainer - MTA New York City Transit**
+**November 2017 – July 2024**  
+- Led a team in identifying and solving rail inspection issues, reducing delays by 15%.
+- Trained 10 new employees, enhancing team efficiency and adherence to safety protocols.
+
+---
+
+## **Connect with Me**
+
+- **Email:** larose.jamel.d@gmail.com  
+- **LinkedIn:** [linkedin.com/in/jamel-la-rose-8352b37a](https://www.linkedin.com/in/jamel-la-rose-8352b37a)  
+- **GitHub:** [github.com/jamellarose](#)
+
+---
