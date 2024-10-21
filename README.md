@@ -49,20 +49,6 @@ I am Jamel La Rose, an IT professional with a solid background in hardware troub
 
 ---
 
-## **Work Experience**
-
-### **Freelance PC Repair Technician**
-**February 2015 – Present**  
-- Diagnosed and resolved hardware/software issues for over 80 clients.
-- Achieved a 95% customer satisfaction rate by delivering tailored solutions for each client.
-
-### **Track Maintainer - MTA New York City Transit**
-**November 2017 – July 2024**  
-- Led a team in identifying and solving rail inspection issues, reducing delays by 15%.
-- Trained 10 new employees, enhancing team efficiency and adherence to safety protocols.
-
----
-
 ## **Connect with Me**
 
 - **Email:** larose.jamel.d@gmail.com  
