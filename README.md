@@ -15,7 +15,7 @@ I am Jamel La Rose, an IT professional with a solid background in hardware troub
 
 ## **Certifications**
 
-- **[CompTIA A+](www.linkedin.com/in/jamel-la-rose-8352b37a)** – September 2024
+- **[CompTIA A+](https://www.certmetrics.com/comptia/public/verification.aspx?code=2DXDNR24D76LV79Y)** – September 2024
 - **[Associate Data Analyst](https://www.datacamp.com/certificate/DAA0010819815592)** – June 2024
 - **CompTIA Network+** - In Progress
 ---
