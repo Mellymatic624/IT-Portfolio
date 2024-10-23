@@ -34,7 +34,7 @@ I am Jamel La Rose, an IT professional with a solid background in hardware troub
 ## **🔧 IT Projects**
 
 ### **1. Active Directory Homelab**
-- **Date:** July 2024 – Present
+- **Date:** July 2024
 - **Description:** Developed a virtualized lab environment to simulate enterprise-level IT infrastructure, including Windows Server 2022 with Active Directory integration. Managed users, groups, and permissions while automating tasks with PowerShell.
 - **Key Skills:** Windows Server, Active Directory, PowerShell, Virtualization
 - [View Project](https://github.com/Mellymatic624/active-directory-homelab/blob/main/README.md)
@@ -42,7 +42,7 @@ I am Jamel La Rose, an IT professional with a solid background in hardware troub
 ---
 
 ### **2. Automated User Management with PowerShell**
-- **Date:** Ongoing
+- **Date:** September 2024
 - **Description:** Designed and deployed PowerShell scripts for automating user account creation, permission management, and system monitoring tasks, reducing manual effort by 30%.
 - **Key Skills:** PowerShell, Scripting, Windows Server Automation
 - [View Project](https://github.com/Mellymatic624/Automated_User_Management/blob/main/README.md)
