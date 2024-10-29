@@ -9,7 +9,7 @@
 
 ### **About Me**
 
-I am Jamel La Rose, an IT professional with a solid background in hardware troubleshooting, networking, and system administration. With certifications like CompTIA A+ and hands-on experience in configuring and managing IT infrastructures, I thrive on solving technical challenges and optimizing IT environments through automation and virtualization.
+I am Jamel La Rose, an IT professional with a solid background in hardware troubleshooting, networking, and system administration. My associate's degree of applied science in information technology, along with my CompTIA A+ certification has given me the necessary knowledge, skills, and hands-on experience in configuring and managing IT infrastructures. I thrive on solving technical challenges and optimizing IT environments through automation and virtualization.
 
 ---
 
